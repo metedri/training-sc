@@ -9,7 +9,6 @@ import { myTheme } from './styles/Theme.styled';
 
 function App() {
   return (
-    <div>
       <Card>
         <CadrdImage src='./images/rectangle.png'/>
         <CadrdTitle>Headline</CadrdTitle>
@@ -19,7 +18,6 @@ function App() {
           <Button outlined color={myTheme.colors.blue}>Save</Button>
         </Box>
       </Card>
-    </div>
   );
 }
 
